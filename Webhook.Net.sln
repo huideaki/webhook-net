@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webhook.Net.Receivers", "Webhook.Net.Receivers\Webhook.Net.Receivers.csproj", "{2E9516C9-3A68-4F4B-A813-AE6539A5D9B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webhook.Net.Receivers.Test", "Webhook.Net.Receivers.Test\Webhook.Net.Receivers.Test.csproj", "{60FEE2F1-4D32-4A20-98AE-68FD64922A53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webhook.Net.Senders", "Webhook.Net.Senders\Webhook.Net.Senders.csproj", "{601A9BCF-5358-4F30-B674-C9A0221BA637}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webhook.Net.Senders.Test", "Webhook.Net.Senders.Test\Webhook.Net.Senders.Test.csproj", "{A6F2E255-A476-422E-9D9F-494F2AF9EB11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{73618B71-2FD8-4EAA-9BCF-D5B85C67FB9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E9516C9-3A68-4F4B-A813-AE6539A5D9B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E9516C9-3A68-4F4B-A813-AE6539A5D9B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E9516C9-3A68-4F4B-A813-AE6539A5D9B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E9516C9-3A68-4F4B-A813-AE6539A5D9B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60FEE2F1-4D32-4A20-98AE-68FD64922A53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60FEE2F1-4D32-4A20-98AE-68FD64922A53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60FEE2F1-4D32-4A20-98AE-68FD64922A53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60FEE2F1-4D32-4A20-98AE-68FD64922A53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{601A9BCF-5358-4F30-B674-C9A0221BA637}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{601A9BCF-5358-4F30-B674-C9A0221BA637}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{601A9BCF-5358-4F30-B674-C9A0221BA637}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{601A9BCF-5358-4F30-B674-C9A0221BA637}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6F2E255-A476-422E-9D9F-494F2AF9EB11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6F2E255-A476-422E-9D9F-494F2AF9EB11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6F2E255-A476-422E-9D9F-494F2AF9EB11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6F2E255-A476-422E-9D9F-494F2AF9EB11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{60FEE2F1-4D32-4A20-98AE-68FD64922A53} = {73618B71-2FD8-4EAA-9BCF-D5B85C67FB9B}
+		{A6F2E255-A476-422E-9D9F-494F2AF9EB11} = {73618B71-2FD8-4EAA-9BCF-D5B85C67FB9B}
+	EndGlobalSection
+EndGlobal
