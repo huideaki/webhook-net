@@ -1,12 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webhook.Net.Receivers", "Webhook.Net.Receivers\Webhook.Net.Receivers.csproj", "{2E9516C9-3A68-4F4B-A813-AE6539A5D9B6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webhook.Net.Receivers", "src\Webhook.Net.Receivers\Webhook.Net.Receivers.csproj", "{2E9516C9-3A68-4F4B-A813-AE6539A5D9B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webhook.Net.Receivers.Test", "Webhook.Net.Receivers.Test\Webhook.Net.Receivers.Test.csproj", "{60FEE2F1-4D32-4A20-98AE-68FD64922A53}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webhook.Net.Receivers.Test", "tests\Webhook.Net.Receivers.Test\Webhook.Net.Receivers.Test.csproj", "{60FEE2F1-4D32-4A20-98AE-68FD64922A53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webhook.Net.Senders", "Webhook.Net.Senders\Webhook.Net.Senders.csproj", "{601A9BCF-5358-4F30-B674-C9A0221BA637}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webhook.Net.Senders", "src\Webhook.Net.Senders\Webhook.Net.Senders.csproj", "{601A9BCF-5358-4F30-B674-C9A0221BA637}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webhook.Net.Senders.Test", "Webhook.Net.Senders.Test\Webhook.Net.Senders.Test.csproj", "{A6F2E255-A476-422E-9D9F-494F2AF9EB11}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webhook.Net.Senders.Test", "tests\Webhook.Net.Senders.Test\Webhook.Net.Senders.Test.csproj", "{A6F2E255-A476-422E-9D9F-494F2AF9EB11}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{73618B71-2FD8-4EAA-9BCF-D5B85C67FB9B}"
 EndProject
